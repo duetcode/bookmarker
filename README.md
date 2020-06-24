@@ -1,24 +1,8 @@
-# README
+# Bookmarker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bookmarker repository shows the source code of the application that we build with API-only rails course from [duetcode.io](https://duetcode.io/rails-api-only-course)
 
-Things you may want to cover:
+## Chapters
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Chapter 1 (Introduction page without any code)
+- [Chapter 2](https://github.com/duetcode/bookmarker/commits/chapter-2)
