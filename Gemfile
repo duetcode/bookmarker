@@ -34,6 +34,10 @@ group :development, :test do
   gem 'rubocop', '~> 0.85.1', require: false
 end
 
+group :test do
+  gem 'shoulda-matchers', '~> 3.1'
+end
+
 group :development do
   gem 'listen', '~> 3.2'
 end
