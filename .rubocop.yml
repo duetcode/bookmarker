@@ -8,3 +8,6 @@ Metrics/MethodLength:
 
 Style/Documentation:
   Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
