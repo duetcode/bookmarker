@@ -5,3 +5,6 @@ Metrics/MethodLength:
   Exclude:
     - 'bin/bundle'
     - 'db/migrate/*'
+
+Style/Documentation:
+  Enabled: false
