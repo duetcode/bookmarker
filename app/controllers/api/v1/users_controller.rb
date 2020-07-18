@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 class Api::V1::UsersController < Api::V1::BaseController
-  include Renderer
-
   def create
     @user = User.new(user_params)
 
