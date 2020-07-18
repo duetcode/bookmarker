@@ -14,3 +14,7 @@ Style/ClassAndModuleChildren:
 
 Style/IfUnlessModifier:
   Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
