@@ -5,7 +5,7 @@ class Api::V1::UsersController < Api::V1::BaseController
     @user = User.new(user_params)
 
     if @user.save
-      return render_object(@user, :created)
+      return render_object(@user, status: :created)
     end
 
     render_errors(@user.errors)
