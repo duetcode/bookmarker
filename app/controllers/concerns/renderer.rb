@@ -10,7 +10,7 @@ module Renderer
   end
 
   def render_errors(errors, status = :unprocessable_entity)
-    render json: errors, status: status
+    render json: { errors: errors.messages }, status: status
   end
 
   private

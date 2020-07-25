@@ -73,7 +73,7 @@ RSpec.describe Renderer, type: :controller do
       }
 
       expect(response.status).to eq(422)
-      expect(load_body(response)).to eq(error_fields)
+      expect(load_body_errors(response)).to eq(error_fields)
     end
   end
 end
