@@ -58,7 +58,7 @@ RSpec.describe Renderer, type: :controller do
       resource_fields = { 'id' => resource.id, 'name' => resource.name }
 
       expect(response.status).to eq(200)
-      expect(load_body(response)['dummy']).to include(resource_fields)
+      expect(load_body(response)['data']).to include(resource_fields)
     end
   end
 
