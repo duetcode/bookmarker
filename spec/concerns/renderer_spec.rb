@@ -56,9 +56,11 @@ RSpec.describe Renderer, type: :controller do
       get :show, params: { id: resource.id }
 
       data_fields = { 'id' => resource.id, 'name' => resource.name }
+      meta_fields = { 'resource' => 'Dummy', 'count' => 1 }
 
       expect(response.status).to eq(200)
       expect(load_body_data(response)).to include(data_fields)
+      expect(load_body_meta(response)).to include(meta_fields)
     end
   end
 
