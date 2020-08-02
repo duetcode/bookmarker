@@ -28,6 +28,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Flexible authentication solution for Rails based on Warden
 gem 'devise', '~> 4.7'
 
+# Define and serve live-updating Swagger JSON for Ruby apps.
+gem 'swagger-blocks', '~> 3.0'
+
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
