@@ -28,6 +28,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Flexible authentication solution for Rails based on Warden
 gem 'devise', '~> 4.7'
 
+# Rails engine to introduce OAuth 2 provider functionality
+gem 'doorkeeper', '~> 5.4'
+
 # Define and serve live-updating Swagger JSON for Ruby apps.
 gem 'swagger-blocks', '~> 3.0'
 
