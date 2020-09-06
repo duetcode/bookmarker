@@ -13,3 +13,4 @@ Bookmarker repository shows the source code of the application that we build wit
 - [Chapter 7](https://github.com/duetcode/bookmarker/commits/chapter-7)
 - [Chapter 8](https://github.com/duetcode/bookmarker/commits/chapter-8)
 - [Chapter 9](https://github.com/duetcode/bookmarker/commits/chapter-9)
+- [Chapter 10](https://github.com/duetcode/bookmarker/commits/chapter-10)
