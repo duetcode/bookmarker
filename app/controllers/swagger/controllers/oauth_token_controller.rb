@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Swagger::Controllers::OauthController
+class Swagger::Controllers::OauthTokenController
   include Swagger::Blocks
 
   swagger_path '/oauth/token' do
